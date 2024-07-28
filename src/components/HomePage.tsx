@@ -17,7 +17,7 @@ const HomePage = () => {
           size="lg"
           marginBottom={5}
         >
-          <Link to="/Enigma-Quest/games">Start</Link>
+          <Link to="/games">Start</Link>
         </Button>
       </Center>
     </>

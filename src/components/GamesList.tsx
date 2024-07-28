@@ -30,10 +30,7 @@ const GamesList = () => {
         <List>
           {games.map((game) => (
             <ListItem key={game.id} marginBottom={2}>
-              <Link
-                to={`/Enigma-Quest/games/${game.id}`}
-                style={{ fontSize: "24px" }}
-              >
+              <Link to={`/games/${game.id}`} style={{ fontSize: "24px" }}>
                 {game.name}
               </Link>
             </ListItem>
