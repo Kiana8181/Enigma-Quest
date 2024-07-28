@@ -62,7 +62,7 @@ To set up Enigma Quest locally, follow these steps:
    ```
    
 2. Install Dependencies:
-  ```bash
+   ```bash
    npm install
    ```
 
