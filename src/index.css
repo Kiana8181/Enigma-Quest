@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "arcade";
+  src: local("arcade"), url("./font/ARCADE_I.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "arcade1";
+  src: local("arcade1"), url("./font/ARCADE_N.TTF") format("truetype");
+}
