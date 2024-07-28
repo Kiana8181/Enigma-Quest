@@ -11,12 +11,18 @@ function App() {
       <main>
         <BrowserRouter>
           <Routes>
-            <Route path="" element={<Navigate to="home" />} />
-            <Route path="home" element={<HomePage />} />
-            <Route path="games" element={<GamesList />} />
-            <Route path="games/:id" element={<GameShow />} />
-            <Route path="notFound" element={<NotFound />} />
-            <Route path="*" element={<Navigate to="notFound" />} />
+            <Route
+              path="/Enigma-Quest/"
+              element={<Navigate to="/Enigma-Quest/home" />}
+            />
+            <Route path="/Enigma-Quest/home" element={<HomePage />} />
+            <Route path="/Enigma-Quest/games" element={<GamesList />} />
+            <Route path="/Enigma-Quest/games/:id" element={<GameShow />} />
+            <Route path="/Enigma-Quest/notFound" element={<NotFound />} />
+            <Route
+              path="*"
+              element={<Navigate to="/Enigma-Quest/notFound" />}
+            />
           </Routes>
         </BrowserRouter>
       </main>
