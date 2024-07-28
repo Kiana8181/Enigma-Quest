@@ -11,7 +11,7 @@ function App() {
       <main>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/Enigma-Quest/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/games" element={<GamesList />} />
             <Route path="/games/:id" element={<GameShow />} />
