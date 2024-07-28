@@ -19,10 +19,7 @@ function App() {
             <Route path="/Enigma-Quest/games" element={<GamesList />} />
             <Route path="/Enigma-Quest/games/:id" element={<GameShow />} />
             <Route path="/Enigma-Quest/notFound" element={<NotFound />} />
-            <Route
-              path="*"
-              element={<Navigate to="/Enigma-Quest/notFound" />}
-            />
+            <Route path="*" element={<Navigate to="/Enigma-Quest/" />} />
           </Routes>
         </BrowserRouter>
       </main>
